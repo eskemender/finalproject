@@ -5,16 +5,15 @@ header {
    height: 80px;
    margin-left: 10%;
    margin-top:30px;
+   padding-top: 1px;
+   padding-bottom: 10px;
+   padding-left: 10px;
 }
 
 #logo {
-   float: left;
-   padding-top: 5px;
-   margin-left: 10px;
-   margin-top: 0;
-   padding-bottom: 50;
-}
-
+  float: left;
+  margin-bottom: 20px;
+   }
 nav {
    float: right;
    text-align: right;
@@ -94,7 +93,6 @@ body, html{
   padding: 20px;
   font-size: 15pt;
   text-align: left;
-  background-image: url('../img/airmadidi.jpg');
 }
 .box-300{
   width: 600px;

@@ -14,6 +14,7 @@ header {
   float: left;
   margin-bottom: 20px;
    }
+
 nav {
    float: right;
    text-align: right;
@@ -27,7 +28,6 @@ li {
     font-weight: 750;
    display: inline-block;
    margin-right: 20px;
-   padding-bottom: 10px
    margin-bottom: 0;
    /* Set Color */
 }
@@ -63,7 +63,7 @@ body, html{
 
 .pimg2{
   background-image:url('../img/white-bg.jpg');
-  min-height:800px;
+  min-height:500px;
 }
 
 .pimg3{
@@ -71,8 +71,38 @@ body, html{
   min-height:1500px;
 }
 .pimg4{
-  background-image:url('../img/cafe-bg.jpg');
+  background-image:url('../img/banner-bg.jpg');
   min-height:1500px;
+}
+.pimg-about1{
+  background-image:url('../img/about/male.png');
+  min-height:500px;
+}
+.pimg-about2{
+  background-image:url('../img/about/female.png');
+  min-height:500px;
+}
+.foto-user{
+  width: 500px;
+  height: 400px;
+  float: left;
+  margin-left: 100px;
+  padding: 20px;
+  font-size: 15pt;
+  text-align: center;
+  background-image: url('../img/about/male.png');
+  border-radius: 20px;
+}
+.foto-user2{
+  width: 500px;
+  height: 400px;
+  float: right;
+  margin-left: 100px;
+  padding: 20px;
+  font-size: 15pt;
+  text-align: center;
+  background-image: url('../img/about/female.png');
+  border-radius: 20px;
 }
 .box-100{
   width: 600px;
@@ -112,13 +142,25 @@ body, html{
   font-family: playfair-display;
   letter-spacing: 1px;
 }
+.user1{
+  text-align:left;
+  font-size: 13pt;
+  font-family: playfair-display;
+  letter-spacing: 1px;
+}
+.user2{
+  text-align: right;
+  font-size: 13pt;
+  font-family: playfair-display;
+  letter-spacing: 1px;
+}
 .banner{
   position:absolute;
   top:10%;
   width:100%;
   text-align:center;
   height:100%;
-  margin-top:220px;
+  margin-top:240px;
   font-size:30px;
   font-family:"Lato", sans-serif;
   font-weight:400;
@@ -127,6 +169,7 @@ body, html{
 }
 .style-change{
   color:orange;
+  font-size: 55px;
 }
 .ptext .border{
   background-color:#111;
@@ -149,14 +192,20 @@ body, html{
   letter-spacing: 2px;
   font-size: 10pt;
 }
+.user1 {
+  text-align: right;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 10pt;
+}
 
 .button{
   float: left;
   background: orange;
-  border: none;
   padding: 8px;
-  margin-top: 50px;
+  margin-top: 1px;
   font-size: 13pt;
+  color: white;
 }
 .culinary-spot{
   float: left;
@@ -176,7 +225,7 @@ body, html{
   font-size: 15pt;
   text-align: center;
 
-  
+
 }
 .foto-spot{
   width: 400px;
@@ -198,7 +247,7 @@ body, html{
   height: 400px;
   float: left;
   margin-left: 250px;
-  margin-top: 150px;
+  margin-top: 125px;
   padding: 20px;
   font-size: 15pt;
   text-align: center;
@@ -209,7 +258,7 @@ body, html{
   height: 400px;
   float: right;
   margin-right: 250px;
-  margin-top: 150px;
+  margin-top: 125px;
   padding: 20px;
   font-size: 15pt;
   text-align: center;
@@ -224,26 +273,19 @@ body, html{
   font-size: 15pt;
   text-align: center;
   color: orange;
+  background-color: black;
 }
-.pembatas{
-  background-color: white;
-  opacity: 0.7;
-  height: 250px;
-  padding-top: 10px;
-  padding-left: 20px;
-  border-radius: 5px;
-  }
 .text-recom1{
   width: 400px;
   height: 300px;
   float: right;
   margin-right: 10px;
-  margin-top: 170px;
+  margin-top: 125px;
   padding: 20px;
   font-size: 15pt;
   text-align: center;
+  color:orange;
 }
-
 .recom2{
   width: 400px;
   height: 300px;
@@ -254,18 +296,18 @@ body, html{
   font-size: 15pt;
   text-align: center;
   color: orange;
-
+  background-color: black;
 }
 .text-recom2{
   width: 400px;
   height: 300px;
   float: right;
-  margin-right: 240px;
-  margin-top: 170px;
+  margin-right: 350px;
+  margin-top: 125px;
   padding: 20px;
   font-size: 15pt;
   text-align: center;
-  color:black;
+  color:orange;
 }
 .tombol-more{
   text-align: right;
@@ -273,20 +315,11 @@ body, html{
   padding-left: 5px;
   padding-right: 5px;
   margin-left: 300px;
-  color: white;
-  border-radius: 5px;
+  color: black;
 
 }
 .penjelasan-toko{
-  background-color: lightgrey; 
+  background-color: lightgrey;
   padding: 10px;
-  border-radius: 10px;
-  margin-top: 35px;
-}
-footer {
-   background-color: #330000;
-   color: white;
-   text-align: center;
-   padding: 1px;
-   font-size: 20px;
+  border-radius: 20px;
 }
